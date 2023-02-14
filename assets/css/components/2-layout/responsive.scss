@@ -1,0 +1,61 @@
+// 1400 ========================
+@include xlg-xxxlg {}
+
+// 1200 ========================
+@include xlg-xxlg {}
+
+// 1100 =======================
+@include lg-xxlg {
+
+    .auto_container {
+        padding: 0 35px;
+    }
+
+}
+
+// 1000 ======================
+@include lg-xlg {}
+
+// 750 ========================
+@include lg-lg {}
+
+// 550 =======================
+@include md-sm {
+
+}
+
+// 440 ===========================
+@include md-xsm {
+    .auto_container {
+        padding: 0 20px;
+    }
+    
+    // Header =============
+    .header {
+        height: 300px;
+    }
+
+    // Header =============
+
+    // Loader =============
+    .loader {
+        &_logo {
+            width: 80px;
+            height: 80px;
+        }
+    }
+
+    // Loader end =========
+
+    // Cnt =================
+    .cnt {
+        margin-top: -238px;
+
+        .logo {
+            width: 80px;
+            height: 80px;
+        }
+    }
+
+    // Cnt end =============
+}
