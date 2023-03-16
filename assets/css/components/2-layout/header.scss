@@ -1,8 +1,20 @@
 // Header ================
 .header {
     height: 350px;
-    background: linear-gradient(45deg, rgb(121, 85, 72) 0%, rgb(121, 85, 72) 1%, rgb(204, 188, 188) 100%);
-    background: #5A4039;
+    // background: linear-gradient(45deg, rgb(121, 85, 72) 0%, rgb(121, 85, 72) 1%, rgb(204, 188, 188) 100%);
+    // background: #5A4039;
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: url("../images/bal.svg") no-repeat center;
+        width: 100%;
+        height: 350px;
+        white-space: nowrap;
+    }
 }
 
 // Header end ============
